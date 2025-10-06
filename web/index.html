@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Locadora de Automóveis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🚗 Locadora de Automóveis</h1>
+
+  <section id="cadastro">
+    <h2>Cadastrar veículo</h2>
+    <form id="vehicleForm">
+      <input type="text" id="brand" placeholder="Marca" required />
+      <input type="text" id="model" placeholder="Modelo" required />
+      <input type="number" id="year" placeholder="Ano" required />
+      <input type="text" id="plate" placeholder="Placa" required />
+      <input type="number" id="price" placeholder="Preço por dia" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <section id="lista">
+    <h2>Veículos cadastrados</h2>
+    <div id="vehicles"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
